@@ -151,15 +151,29 @@ input[type="submit"]:hover{
 /* ========= */
 
 
-.icon-home{
-  padding: 10px;
+/* === ICON === */
+
+.fa-arrow-left{
+  padding: 0px;
   font-size: 25px;
   color: #00a1ff;
-  margin: 10px;
+  margin: -13px;
   text-align: center;
+  position: relative;
+  top: 40px;
+  left: 30px;
 }
 
-.icon-home a{
-  text-decoration: none;
-    color: #00a1ff;
+ .fa-arrow-left a{
+  color:#00a1ff;
+  -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+ .fa-arrow-left:hover{
+   -webkit-transform: translate(10%);
+    transform: translate(-10%);
+    color:#ced6e0
+
 }
